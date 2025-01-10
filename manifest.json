@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Doodlify",
+    "version": "1.0",
+    "description": "Turn your new tabs into a canvas for drawing",
+    "permissions": ["storage"],
+    "chrome_url_overrides": {
+      "newtab": "newtab.html"
+    },
+    "icons": {
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }
